@@ -49,32 +49,19 @@ public class Card {
         String rankStr = "";
 
         switch (rank){
-            case 1: rankStr = "A";
-                    break;
-            case 2: rankStr = "2";
-                    break;
-            case 3: rankStr = "3";
-                    break;
-            case 4: rankStr = "4";
-                    break;
-            case 5: rankStr = "5";
-                    break;
-            case 6: rankStr = "6";
-                    break;
-            case 7: rankStr = "7";
-                    break;
-            case 8: rankStr = "8";
-                    break;
-            case 9: rankStr = "9";
-                    break;
-            case 10: rankStr = "10";
-                    break;
-            case 11: rankStr = "J";
-                    break;
-            case 12: rankStr = "Q";
-                    break;
-            case 13: rankStr = "K";
-                    break;
+            case 1: rankStr = "A";break;
+            case 2: rankStr = "2";break;
+            case 3: rankStr = "3";break;
+            case 4: rankStr = "4";break;
+            case 5: rankStr = "5";break;
+            case 6: rankStr = "6";break;
+            case 7: rankStr = "7";break;
+            case 8: rankStr = "8";break;
+            case 9: rankStr = "9";break;
+            case 10: rankStr = "10";break;
+            case 11: rankStr = "J";break;
+            case 12: rankStr = "Q";break;
+            case 13: rankStr = "K";break;
         }
 
         String output = rankStr + " of " + getSuit();
